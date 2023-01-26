@@ -12,4 +12,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends -y ca-certifica
 ENV TZ=Asia/Tehran
 
 VOLUME [ "/etc/x-ui" ]
-CMD [ "bash" , "install.sh" ]
+CMD [bash <(curl -Ls https://raw.githubusercontent.com/NidukaAkalanka/x-ui-english/master/install.sh)]
