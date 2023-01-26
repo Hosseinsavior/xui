@@ -1,0 +1,20 @@
+{
+    "name": "xui",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "build": "Dockerfile",
+        "test": "",
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Horona112/xui.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Horona112/xui/issues"
+    },
+    "homepage": "https://github.com/Horona112/agg#readme"
+}
